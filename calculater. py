@@ -1,0 +1,19 @@
+print("My First Calculator - by Dhana")
+
+num1 = float(input("First number: "))
+op = input("Operation (+, -, *, /): ")
+num2 = float(input("Second number: "))
+
+if op == "+":
+    print(f"Result: {num1 + num2}")
+elif op == "-":
+    print(f"Result: {num1 - num2}")
+elif op == "*":
+    print(f"Result: {num1 * num2}")
+elif op == "/":
+    if num2 == 0:
+        print("Zero tho divide cheyalem Dhana")
+    else:
+        print(f"Result: {num1 / num2}")
+else:
+    print("Wrong operation")
