@@ -15,5 +15,5 @@ elif op == "/":
         print("Error: cannot divide by zero")
     else:
         print(f"Result: {num1 / num2}")
-else:
+else
     print("Invalid operation")
